@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  background: transparent;
+  font-size: 100%;
+  font: inherit;
+  box-sizing: border-box;
+  display: block;
+  line-height: 1;
+  list-style: none;
+  quotes: none;
+  content: "";
+  content: none;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
