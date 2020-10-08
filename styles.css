@@ -16,3 +16,25 @@
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+header {
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+nav li {
+  margin-right: 10px;
+}
+
+#buscar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#buscar select {
+}
