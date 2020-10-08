@@ -70,21 +70,23 @@ nav li {
   display: flex;
   justify-content: flex-end;
 }
-
+ 
 .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-between;
-
 }
 
 .card {
   padding: 20px;
-  
 }
 
-.card img {
+#fotos img {
+  height: 200px;
+}
+
+.card img, #fotos img {
   border-radius: 20px;
 }
 
@@ -95,33 +97,20 @@ h3 {
 } 
 
 #negrita{
-  
   line-height: 150%;
   font-weight: 400;
-
 }
 
 .empresas {
   padding: 20px;
-  max-width: 100px;
+  width: 150px;
   justify-content: space-evenly;
-
-
 }
 
 #fotos {
-
   padding: 25px;
-  
-  
 }
+
 .apoyo {
-  align-self: center;
   padding-top: 20px;
-
-}
-
-.apoyo h1 {
-  align-self: center;
-  text-align: center;
 }
