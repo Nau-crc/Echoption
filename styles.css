@@ -114,3 +114,24 @@ h3 {
 .apoyo {
   padding-top: 20px;
 }
+
+footer {
+  font-size: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer img {
+  height: 100px;
+  
+}
+
+address {
+  font-family: Roboto, sans-serif;
+  font-weight: 200;
+  padding-top: 8px;
+}
+
+.contacto {
+  text-align: left;
+}
