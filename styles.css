@@ -94,3 +94,34 @@ h3 {
   text-shadow: 20px;
 } 
 
+#negrita{
+  
+  line-height: 150%;
+  font-weight: 400;
+
+}
+
+.empresas {
+  padding: 20px;
+  max-width: 100px;
+  justify-content: space-evenly;
+
+
+}
+
+#fotos {
+
+  padding: 25px;
+  
+  
+}
+.apoyo {
+  align-self: center;
+  padding-top: 20px;
+
+}
+
+.apoyo h1 {
+  align-self: center;
+  text-align: center;
+}
