@@ -40,6 +40,11 @@ h1 {
   width: 100px;
 }
 
+#logoCatalogo {
+  padding: 20px;
+  width: 150px;
+}
+
 main {
   display: flex; 
   flex-direction: column;
@@ -48,7 +53,7 @@ main {
   padding: 20px;
 }
 #AboutUs {
-  padding-top: 20px;
+  padding-top: 60px;
   padding-bottom: 10px;
 }
 
@@ -63,7 +68,19 @@ nav ul {
 }
 
 nav li {
-  margin-right: 10px;
+  margin-right: 25px;
+  font-size: 20px; 
+  font-family: Piazzolla, Georgia, 'Times New Roman', Times, serif;
+  color: black; 
+}
+
+nav a{
+  text-decoration: none; 
+}
+
+nav li:hover {
+  font-size: 25px;
+  transition: 0.8s;
 }
 
 #buscar {
@@ -78,16 +95,23 @@ nav li {
   align-content: space-between;
 }
 
+#empresaslogos {
+  padding-bottom: 50px;
+}
+
 .card {
   padding: 20px;
 }
 
 #fotos img {
   height: 200px;
+  border: 2px solid lightgray; 
+  margin: 10px; 
 }
 
 .card img, #fotos img {
   border-radius: 20px;
+  height: 300px;
 }
 
 h3 {
@@ -111,18 +135,47 @@ h3 {
   padding: 25px;
 }
 
+#fotos img:hover{ 
+  box-shadow: 1px 1px 5px grey; 
+  transition: 0.8s;
+}
+
 .apoyo {
-  padding-top: 20px;
+  padding-top: 50px;
+}
+
+button {
+  border-radius: 5px;
+  border: 2px solid grey;
+  padding: 10px; 
+  font-size: 20px; 
+  font-family: Roboto, sans-serif;
+  max-width: 250px;
+  align-self: center;
+  margin-top: 20px;
+}
+
+button:hover{ 
+  font-size: 25px;
+  transition: 0.8s;
+}
+
+.donativo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 10px;
 }
 
 footer {
   font-size: 60%;
   display: flex;
   justify-content: space-around;
+  padding-top: 60px;
 }
 
 footer img {
-  height: 100px;
+  height: 150px;
   
 }
 
@@ -130,8 +183,11 @@ address {
   font-family: Roboto, sans-serif;
   font-weight: 200;
   padding-top: 8px;
+  font-size: 15px;
 }
 
 .contacto {
   text-align: left;
+  font-size: 17px;
+  margin-bottom: 8px;
 }
