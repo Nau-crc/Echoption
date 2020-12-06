@@ -4,7 +4,9 @@
 
 * {
   margin: 0;
-  padding: 0;
+  padding: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
   border: 0;
   outline: none;
   background: transparent;
@@ -33,7 +35,8 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 30px; 
+  font-size: 30px;
+  text-align: center; 
 }
 
 #logo {
@@ -48,10 +51,12 @@ h1 {
 main {
   display: flex; 
   flex-direction: column;
-  align-items: center;
+  text-align: justify;
   margin: 0px;
-  padding: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
+
 #AboutUs {
   padding-top: 60px;
   padding-bottom: 10px;
@@ -59,12 +64,12 @@ main {
 
 header {
   padding: 10px;
+  justify-items: right;
 }
 
 nav ul {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  flex-direction: row-reverse;
 }
 
 nav li {
@@ -80,12 +85,13 @@ nav a{
 
 nav li:hover {
   font-size: 25px;
-  transition: 0.8s;
+  transition: 0.1s;
 }
 
 #buscar {
   display: flex;
   justify-content: flex-end;
+  padding: 20px;
 }
  
 .container {
@@ -100,18 +106,37 @@ nav li:hover {
 }
 
 .card {
-  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  padding: 5px 20px;
+}
+
+#fotos ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  padding-top: 30px;
 }
 
 #fotos img {
   height: 200px;
   border: 2px solid lightgray; 
   margin: 10px; 
+  max-width: 80px 80px;
 }
 
 .card img, #fotos img {
-  border-radius: 20px;
-  height: 300px;
+  border-radius: 30px;
+  height: 150px;
+}
+
+#fotosCatalogo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 h3 {
@@ -128,16 +153,15 @@ h3 {
 .empresas {
   padding: 20px;
   width: 150px;
-  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-#fotos {
-  padding: 25px;
-}
 
 #fotos img:hover{ 
   box-shadow: 1px 1px 5px grey; 
-  transition: 0.8s;
+  transition: 0.1s;
 }
 
 .apoyo {
@@ -170,14 +194,18 @@ button:hover{
 footer {
   font-size: 60%;
   display: flex;
-  justify-content: space-around;
-  padding-top: 60px;
+  justify-content: right;
+  justify-items: row;
+  padding-top: 5px;
+  padding-bottom: 100px;
 }
 
-footer img {
+/* footer img {
   height: 150px;
+  display: flex;
+  justify-self: right;
   
-}
+} */
 
 address {
   font-family: Roboto, sans-serif;
