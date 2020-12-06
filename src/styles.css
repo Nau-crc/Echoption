@@ -52,6 +52,7 @@ main {
   display: flex; 
   flex-direction: column;
   text-align: justify;
+  justify-content: space-around;
   margin: 0px;
   padding-left: 200px;
   padding-right: 200px;
