@@ -124,6 +124,7 @@ nav li:hover {
 
 #fotos img {
   height: 200px;
+  width: auto;
   border: 2px solid lightgray; 
   margin: 10px; 
   max-width: 80px 80px;
