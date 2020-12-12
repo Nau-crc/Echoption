@@ -13,7 +13,7 @@
   font-size: 100%;
   font: inherit;
   box-sizing: border-box;
-  display: block;
+  
   line-height: 1;
   list-style: none;
   quotes: none;
@@ -21,6 +21,10 @@
   content: none;
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+body{
+  display: block;
 }
 
 p {
